@@ -1,0 +1,186 @@
+.navbar {
+  background-color: #0071dc;
+}
+.navbar-brand img {
+  max-height: 40px;
+}
+.location-selector {
+  display: flex;
+  align-items: center;
+  color: white;
+  background-color: #005cbf;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.search-bar {
+  margin: 0 20px;
+}
+.search-bar input {
+  width: 100%;
+  border-radius: 20px;
+  padding: 0.5rem 1rem;
+}
+.navbar-nav .nav-link {
+  color: white;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.navbar-nav .nav-link:hover {
+  color: #ffca28;
+}
+.cart {
+  position: relative;
+  color: white;
+}
+.cart .badge {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background-color: #ffca28;
+  color: black;
+}
+.custom-navbar {
+  background-color: #f8f9fa;
+}
+.custom-navbar .nav-link {
+  color: #343a40;
+}
+.custom-navbar .nav-link:hover {
+  color: #0056b3;
+}
+.horizontal-overflow {
+  overflow-x: auto;
+  display: flex;
+  white-space: nowrap;
+}
+
+.horizontal-overflow::-webkit-scrollbar {
+  display: none;
+}
+
+.horizontal-overflow .card {
+  flex: 0 0 auto;
+  width: 18rem;
+  margin-right: 10px; /* Add some space between cards */
+}
+
+.horizontal-overflow .card-text {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  color: #6c757d;
+  white-space: nowrap;      /* Prevent text from wrapping */
+  overflow: hidden;         /* Hide overflowing text */
+  text-overflow: ellipsis;  /* Add ellipsis to overflowed text */
+  width: 100%;              /* Constrain the width to the container */
+  display: block;           /* Ensure the element is block-level */
+}
+
+.product-card {
+  padding: 15px;
+  text-align: center;
+  position: relative;
+}
+
+.product-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.product-card .price {
+  font-size: 1.2em;
+  color: green;
+}
+
+.product-card .original-price {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.product-card .options-btn {
+  margin-top: 10px;
+}
+
+.wishlist-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: black;
+  font-size: 1.5em;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.better-goods {
+  background-image: url("https://www.usatoday.com/gcdn/authoring/authoring-images/2024/04/30/USAT/73510701007-bettergoodsproducts.jpg?crop=1599,899,x0,y0");
+  width: 50%;
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 10px;
+}
+
+.row .image-1{
+  background-image: url("https://picsum.photos/200/300?random=1");
+  width: 33%;
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 10px;
+
+}
+/* row.image-2{
+  background-image: url("https://picsum.photos/200/300?random=2");
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 10px;
+} */
+.row .image-3{
+  background-image: url("https://picsum.photos/200/300?random=3");
+  width: 33%;
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 10px;
+
+}
+.collector-con {
+  background-image: url("https://i0.wp.com/toyhabits.com/wp-content/uploads/2023/03/Walmart-Collector-Con-2023-Preorder-Live.jpg?fit=1920%2C1080&ssl=1");
+  width: 50%;
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 10px;
+}
+
+.footer {
+  background-color: #0071dc;
+  color: white;
+  padding: 20px 0;
+  font-size: small;
+}
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
+.feedback-btn {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.feedback-btn:hover {
+  background-color: #f0f0f0;
+  color: black;
+}
+.copyright {
+  color: white;
+}
